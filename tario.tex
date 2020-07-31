@@ -1,0 +1,278 @@
+% Preambulo
+
+%\pdfmapfile{=EspinosaNovaPro.map}
+
+% TIPO DE DOCUMENTO
+
+\documentclass[14pt,a5paper,oneside,final]{extbook}
+
+% CODIFICACIÓN DE ENTRADA
+
+\usepackage[utf8]{inputenc}
+
+% CODIFICACIÓN DE LA TIPOGRAFÍA
+
+\usepackage[T1]{fontenc} % Todas las codificaciones EB Garamond
+\usepackage[full]{textcomp} % Incrementa el número de acentos.
+
+% FUENTES (TESTING)
+
+%\usepackage{baskervald}
+%\usepackage{Baskervaldx} % Versión mejorada de baskervald
+%\usepackage{librebaskerville}
+%\usepackage{baskervillef}
+%\usepackage{LibreBodoni}
+%\usepackage{librecaslon}
+%\usepackage{clara}
+
+%\usepackage{CrimsonPro}
+%\let\oldnormalfont\normalfont
+%\def\normalfont{\oldnormalfont\mdseries}
+
+%\usepackage{cochineal}
+%\usepackage{gfsdidot} % No acentúa! No usar.
+%\usepackage{domitian}
+%\usepackage{erewhon}
+%\usepackage{ETbb}
+%\usepackage[oldstyle]{fbb}
+
+\usepackage[oldstyle]{ebgaramond}
+\usepackage[cmintegrals,cmbraces]{newtxmath}
+\usepackage{ebgaramond-maths}
+
+% Ligaduras T1: ff fi ffi fl fb fh fj ffb ffh ffj ffl
+% Ligaduras OT1: fk ft ffk fft
+% No hay ligaduras: Qu y Th
+
+\newcommand{\fk}{\begingroup\fontencoding{OT1}\selectfont fk\endgroup}
+\newcommand{\ft}{\begingroup\fontencoding{OT1}\selectfont ft\endgroup}
+\newcommand{\ffk}{\begingroup\fontencoding{OT1}\selectfont ffk\endgroup}
+\newcommand{\fft}{\begingroup\fontencoding{OT1}\selectfont fft\endgroup}
+\newcommand{\fb}{\begingroup\fontencoding{OT1}\selectfont fb\endgroup}
+\newcommand{\fj}{\begingroup\fontencoding{OT1}\selectfont fj\endgroup}
+\newcommand{\ffb}{\begingroup\fontencoding{OT1}\selectfont ffb\endgroup}
+\newcommand{\ffj}{\begingroup\fontencoding{OT1}\selectfont ffj\endgroup}
+\newcommand{\ffh}{\begingroup\fontencoding{OT1}\selectfont ffh\endgroup}
+
+%\usepackage[urw-garamond]{mathdesign}
+%\usepackage{garamondx}
+
+%\usepackage{garamondx}
+%\usepackage{garamondlibre}
+%\usepackage{heuristica}
+%\usepackage{libertine}
+%\usepackage{libertinus}
+%\usepackage{stix2}
+%\usepackage[adobe-utopia]{mathdesign}
+%\usepackage{sourceserifpro}
+%\usepackage{imfellEnglish}
+%\usepackage{PlayfairDisplay}
+
+% TESTING FONTS
+
+%\usepackage{EspinosaNovaPro}
+
+% IDIOMA
+
+\usepackage[spanish,mexico]{babel}
+
+% PÁGINA
+
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm]{geometry}
+
+% MICROTIPOGRAFÍA
+
+\usepackage{microtype}
+\usepackage[all]{nowidow}
+
+% NUMEROS NOTAS AL PIE
+
+\let\oldfootnote\footnote
+\renewcommand\footnote[1]{%
+\oldfootnote{\hspace{1mm}#1}}
+
+% ADORNOS
+
+\usepackage{lettrine}
+\usepackage{hologo}
+\usepackage{shapepar}
+
+% COLOR DE FONDO A LA PAGINA
+
+\usepackage{xcolor}
+
+% BOND AHUESADO
+
+%\definecolor{amarillo claro}{RGB}{255 255 224}
+%\pagecolor{amarillo claro}
+
+% COLOR DURAZNO
+
+%\definecolor{peach}{RGB}{255 218 185}
+%\pagecolor{peach}
+
+\usepackage[hyperindex=true,final=true,bookmarks=true,bookmarksnumbered=true,
+bookmarksopen=true,breaklinks=true,citecolor=black,colorlinks=true,
+linkcolor=black,urlcolor=black,pdftitle={La noche del perro},pdfsubject={Literatura},pdfauthor={Francisco Tario},pdfkeywords={Noche Perro Francisco Tario LaTeX},pdfproducer={pdfTeX 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian)},pdfcreator={Noel Merino Hernández (muxkernel@gmail.com)}]{hyperref}
+
+% DOCUMENTO
+
+\newpage
+\pagestyle{empty}
+\begin{document}
+\parindent=5mm
+\parskip=0mm
+\begin{center}
+La noche del perro
+\end{center}
+\begin{center}
+\href{https://es.wikipedia.org/wiki/Francisco\_Tario}{Francisco Tario}
+\end{center}
+\vspace{14pt}
+Mi amo se está muriendo. Se está muriendo solo, sobre su catre duro, en esta helada buhardilla, adonde penetra la nieve.
+
+Mi amo es un poeta enfermo, joven, muy triste, y tan pálido como un cirio.
+
+Se muere así, como vivió desde que lo conozco: silenciosamente, dulcemente, sin un grito ni una protesta, temblando de frío entre las sábanas rotas. Y lo veo morir y no puedo impedirlo porque soy un perro. Si fuera un hombre, me lanzaría ahora mismo al arroyo, asaltaría al primer transeúnte que pasara, le robaría la cartera e iría corriendo a buscar a un médico. Pero soy perro, y, aunque nuestra alma es infinita, no puedo sino arrimarme al amo, mover la cola o las orejas, y mirarlo con mis ojos estúpidos, repletos de lágrimas.
+
+Quisiera al menos hablarle, consolarle, pues sé que aunque es muy desgraciado, ama la vida, las cosas bellas y claras, el agua, los árboles...
+
+Está tísico y morirá irremediablemente. Yo también lo estoy, pero ello importa poco. Él es un poeta, y yo un perro de la calle. Un perro ---como hay tantos--- a quien el poeta mantiene y cuida a costa de tremendos sacrificios; un perro que, una cruda noche de invierno, lo asaltó a la puerta de un tugurio, medio muerto de hambre y de fiebre. Me tomó entonces consigo, me condujo a su casa, encendió la estufa y se asomó a mis ojos intranquilamente. Adiviné al punto sus propósitos. Me dijo:
+
+---¿Quieres ser mi amigo?
+
+Aquella noche ---y otras muchas--- me cedió su leche, su pan duro, sus mantas viejas. Sin embargo, no logré conciliar el sueño, agobiado por la melancolía más terrible.
+
+``¿Qué podría yo hacer para ayudar a este hombre?'' ---me preguntaba continuamente.
+
+Y esta alma buena que llevamos todos los perros dentro me aconsejó al instante:
+
+``Seguirlo siempre a donde vaya.''
+
+Así lo he hecho. No me he apartado de él un segundo. Conozco, pues, todas sus penurias, sus íntimas alegrías, sus versos; conozco su enfermedad, sus pensamientos, sus dudas y todas sus zozobras. Mientras escribe, me acurruco entre sus pies y no oso respirar; mientras duerme, yo duermo; cuando no come, no como yo tampoco; cuando sale a pasear, lo acompaño siempre; vamos muy juntos ---él delante, yo detrás--- a la orilla del río solitario, durante los atardeceres del estío. Cuando entra a alguna taberna lo aguardo en la puerta y, si sale borracho, lo guío, lo guío a través de los callejones obscuros, tortuosos.
+
+Desdichadamente, el alcohol produce en su organismo desastrosos efectos. En vez de tumbarse a dormir, según acostumbran a hacer otros hombres que conozco, se exaspera, se enfurece. Escribe y rasga luego los papeles; golpea los muebles con sus puños; se asoma a la ventana y gime; desgarra las sábanas y lo destroza todo. Yo escapo hacia cualquier refugio, pero él me busca y, al encontrarme, se quita el cinto, lo sacude en el aire y, con las fuerzas de que es capaz, comienza a golpearme bárbaramente, despiadadamente, hasta hacerme sangrar por la boca.
+
+---¡Bestia! ¡Bestia! ---me grita.
+
+Y yo callo sin moverme, soportando los golpes. Veo chorrear mi sangre y me bebo las lágrimas. No protesto. Ni un gruñido impertinente, ni una sola actitud de rebeldía. Pienso en su rostro tan pálido, en sus pulmones enfermos, en su mirada tan honda, y me digo:
+
+``Ámalo, ámalo aunque te duelan los golpes.''
+
+Y lo amo. ¡Cómo no he de amarlo! Lo amo como a mi propia vida.
+
+Más tarde, sofocado, febril, castañeteando los dientes, se deja caer sobre el catre. Yo salto a su lado y, él, acogiéndome entre sus brazos frágiles, rompe a llorar desesperadamente.
+
+---Mi Teddy, mi pobre Teddy... ---me dice. 
+
+Entonces moja en agua su pañuelo sucio y me va limpiando, una a una, las heridas. A continuación, quita las mantas del lecho, cubriéndome con ellas.
+
+---¡Duerme! ---prorrumpe sollozando---. No soy sino un malvado borracho. ¿Me perdonas?
+
+Por complacerlo únicamente finjo dormir; pero escucho, escucho los poemas que él me ha escrito y que repite a gritos por la buhardilla, secándose las lágrimas con la manga.
+
+Mi amo se está muriendo, y, como soy un perro, no acierto a impedirlo. No puedo secar el sudor de su frente; no puedo espantar la fiebre que lo consume; no puedo aliviar su respiración ahogada; no puedo ofrecerle ni un vaso de agua. ¡Qué silencio más horrendo el de esta noche de diciembre! ¡Qué quietud y qué nieve más espantosas! ¡Qué infamia la vida! Y yo, un perro, un triste ser inútil, incapaz de algo importante.
+
+Si supiera hablar, le diría:
+
+``Perdóname por haber nacido perro. Perdóname por no poder hacer otra cosa que verte morir. Perdóname. Pero te amo, te amo con un amor como no hay otro sobre la Tierra; como es incapaz de comprender el hombre... el hombre, salvo tú, mi amo. ¡Si supieras las lágrimas que he derramado, viendo el pan duro y la leche agria que almuerzas! ¡Si supieras qué noches de insomnio he pasado bajo tu catre oyéndote toser, toser implacablemente, con esa tos seca y breve que me duele más que todos los golpes sufridos! ¡Si supieras ---cuando escapaba de tu lado--- cuántas calles he recorrido en busca de un mendrugo, con la esperanza de no quitarte a ti una sola migaja de tu alimento! ¡Si supieras qué enfermo me siento y qué triste! Yo también estoy tísico. Yo también moriré pronto; y si tú mueres, me alegro de hacerlo juntos... ¡Ay! Si tuvieras hijos, mi amo, ellos serían jóvenes y tendrían, a pesar de tu muerte, regocijos mayores que su pesadumbre. Si tuvieras mujer, te olvidaría pronto por otro hombre. Si tuvieras padres, pensarían en sus otros hijos. Si tuvieras amigos, tendrían ellos otros amigos... Tu perro, en cambio, no tiene a nadie sino a ti. Ningunos ojos lo miran, que los tuyos; nadie le sonríe, sino tú; sólo tu calor le alivia; a nadie sigue, sino a ti. Morirás, y él no comerá más, no dormirá más; se entregará a su dolor. ¡Si supieras cómo te amo, te amo!''
+
+Pero no sé hablar. Sólo sé menear la cola y llorar con mis lágrimas estériles. ¿Me permites acariciarte?
+
+Como de costumbre, mi dueño me comprende. Y con esa sensibilidad prodigiosa de poeta y tísico, penetra hasta mis más tenues ref\kern0ptlexiones. Me pide ahora, con una voz que escasamente distingo:
+
+---Súbete, Teddy.
+
+Salto y me enrosco junto a él, a sabiendas de que no le inspiro ningún asco. Me espantan, en cambio, sus ojos.
+
+``Es la muerte'' ---adivino.
+
+Y lo es.
+
+¡Los perros nunca erramos a este respecto! Nuestra mirada ahonda más allá que la de los hombres. Nuestro olfato es más sutil. Tenemos, por otra parte, un don espléndido: la adivinación. Y así es que descubrimos a la muerte, por mucho que ella se esconda: la presentimos en las tinieblas, encaramada sobre las cercas, bajo los puentes, durante las ferias, en la niebla...
+
+Él me dice:
+
+---Tengo frío, Teddy.
+
+Me contraigo aún más y, disimuladamente, esforzándome por no preocuparlo demasiado, le suministro calor con mi aliento. Noto sus manos heladas, f\kern0ptlácidas, inmóviles, y evoco esos jardines tan risueños que existen al pie de los palacios y en cuyos macizos crecen altos y frescos los lirios. ¡Pobres manos de poeta! ¡Pobres f\kern0ptlores! Pronto, pronto, se cerrarán para siempre.
+
+---Me estoy muriendo ---gime.
+
+Respira, con el rostro en alto, y agrega:
+
+---Te quedarás, pues, tan sólito...
+
+Señala con gran trabajo la ventana negra. Me oprime el lomo.
+
+---¿Nos volveremos a ver en algún sitio?
+
+Callamos. Cae sobre el tejado la nieve, silba el viento doloridamente, y yo pienso con angustia en todos los perros del universo: en mis camaradas buenos, la mayoría tan melancólicos, abrumados por esta alma nuestra que nos han dado, demasiado grande por cierto para unos miserables seres que no hablan ni escriben.
+
+---Tengo frío ---repite el amo---. Es un frío terrible, créeme.
+
+Y luego:
+
+---Cuenta, mi pobre amigo, qué vas a hacer cuando yo esté en el pozo. Dime con quién te irás, en quién piensas ir dejando esa bondad admirable que no te cabe dentro del pecho... Dime a quién vas a mirar con tus ojos verdes, vivos. Dime quién va a ser tu compañero entonces...
+
+Yo lloro, sin reprimirme.
+
+---¿Te irás, quizá, con algún borracho de esos que maltratan a los animales?
+
+---Callo.
+
+---¿Te irás, di, y me olvidarás? ¿Te olvidarás de este pobre poeta muerto?
+
+Se endereza y vuelve a caer. Tose, tose y solloza, con sus negros ojos extáticos, perdidos en la última noche. Me aprisiona contra él. Hunde sus uñas en mí. Me hiere. Ya no sabe acariciarme. Ya no comprende el placer, la ternura, el dolor. No comprende nada de lo que comprendía tan bien antes. Va olvidándolo todo, trastornándolo todo, todo menos mi nombre.
+
+---Teddy... Teddy... Teddy...
+
+Y se muere.
+
+Nadie podrá creerme, pero es tan inmensa mi soledad y mi horror en estos momentos ¡que para qué mentir ya!
+
+Yo le cerré los ojos cuidadosamente, sin arañarlo, como si tocara una hostia. Yo le cerré la boca y lo cubrí todo entero con las sábanas. Después, tomando entre mis dientes un haz de f\kern0ptlores secas y de versos, se los regué encima así, esparcidos por el catre, igual que una bendita nevada. Hecho esto, huí hacia el rincón más cercano ---donde duermo a veces--- y rompí a aullar, a aullar con el cuello tieso y el alma hecha pedazos, consumiendo las últimas fuerzas de que dispongo.
+
+Cuando los perros aullan, sé que los hombres se asustan: no, no hay nada qué temer. Los perros aullamos del mismo modo que los hombres lloran y hacen otras cosas. Es un hecho sin importancia, enteramente natural, y que a nadie atañe, sino a nosotros mismos. Por ejemplo, yo aúllo ahora porque me encuentro solo, porque siento frío aquí dentro y porque me voy a morir muy pronto. En cuanto lleve a mi amo al camposanto.
+
+Nadie, sino yo, asistió al entierro. Nadie, sino yo, lo vio bajar al pozo, desaparecer bajo la tierra suelta... Y lo he dejado allí, metido en un cajón negro, solo, sin una luz ni una manta. Solo, como no debiera dejarse ni a un perro.
+
+``¡Qué ignominia es la vida! —pienso mientras camino. Y el cementerio queda atrás, coronado por la niebla—. ¡Qué cosa más frágil y cruel! ¡Qué soledad tan pavorosa la de los que se mueren! ¡Qué soledad y negrura las de mi amo! ¡Y cómo amaba la luz, el río, las hojas verdes y luminosas! ¡Cómo temía a la muerte!''
+
+Cierta vez me dijo:
+
+---Quisiera morir en mitad del mar, ahogado de luz y agua.
+
+Como estaba tísico, le horrorizaba esa cosa apretada y dura que es la fosa.
+
+---¿Quién podrá respirar allí, mi buen Teddy?
+
+Pues allí está. Allí, donde lo han echado ahora. Donde la humedad penetra y el sol no. Y sus blancas manos de poeta —sus manos llenas de lágrimas y versos— pronto serán unas impuras raíces, retorcidas como dos culebras. Igual, igual que si jamás hubieran vivido. ¡Qué abandono el mío también! ¡Qué oprobio!
+
+Súbitamente, cuando más abstraído caminaba bajo las hojas que caían, pierdo la noción de las cosas y ruedo largo trecho sobre las piedras. No acierto a descifrar nada, ni escucho otra cosa que el batir anhelante de mi corazón contra el pecho: es sólo por esto último que comprendo que no he muerto. Pero, ¿y esa gente? ¿Y esta lluvia que me duele tanto?
+
+Voy abriendo poco a poco los ojos, notando que sólo uno de ellos me sirve; con el otro distingo apenas un manchón rojo y difuso que palpita o gira, formando círculos luminosos... Siento el vientre como una inmensa boca abierta. Veo pies de hombres, de mujeres, de niños descalzos. Una chimenea alta y negra que humea sobre el cielo gris de la tarde. Un carruaje... otro...
+
+Percibo, demasiado remoto:
+
+---Iba por ahí y lo mató aquel carro.
+
+Descubro al asesino, saltando sobre los charcos. Oigo claxons, claxons, claxons. Y, de pronto, un policía que llega, bestial como un gigante, aparta al grupo de curiosos.
+
+---¿Qué ocurre? ---indaga muy fríamente.
+
+---Un perro ---contesta alguien.
+
+Y el policía, con su bota de tachuelas, me arroja de tres puntapiés a la cuneta.
+
+Como estoy tísico, muero de frío al amanecer. \\
+
+\noindent Francisco Tario. \emph{Cuentos completos}, Tomo I. Lectorum, México, 2003, págs. 75-81. \\
+
+\vfill
+
+\begin{footnotesize}
+\squarepar{\noindent \emph{La noche del perro} de Francisco Tario, se capturó en el editor de texto plano \href{https://www.xm1math.net/texmaker/}{\TeX{}maker (4.3)}, y se diagramó, finalmente, en el sistema de composición tipográfico \href{https://www.latex-project.org/}{\hologo{LaTeX}}. En su formación se empleó tipografía \href{http://www.georgduffner.at/ebgaramond/}{EB Garamond} diseñada por Georg Duffner, basada en un \href{https://image.linotype.com/files/pdf/specimen.pdf}{catálogo de tipos} impresos por Conrad Berner en 1592, en el taller de impresión de Christian Egenolff. Dicho catálogo es conocido como \textit{Egenolff-Berner specimen}, y muestra las romanas creadas por Claude Garamond y las itálicas de Robert Granjon. Composición: \href{muxkernel@gmail.com}{Noel Merino Hernández}.}
+\end{footnotesize}
+
+\end{document}
